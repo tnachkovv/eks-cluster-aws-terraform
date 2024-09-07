@@ -1,0 +1,10 @@
+# ConfigMap for database connection details
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: db-config
+data:
+  DB_HOST: your-rds-hostname
+  DB_PORT: "5432"
+  DB_NAME: "database_name"
+  DB_USER: "postgres"
